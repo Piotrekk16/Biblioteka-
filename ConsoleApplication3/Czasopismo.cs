@@ -13,12 +13,9 @@ namespace ConsoleApplication3
         public Czasopismo() { }
 
         public Czasopismo(int numer, string tytul, string wydawnictwo, int rokWydania, int id)
+            : base(tytul, wydawnictwo, rokWydania, id)//tu można krócej
         {
             this.numer = numer;
-            this.tytul = tytul;
-            this.wydawnictwo = wydawnictwo;
-            this.rokWydania = rokWydania;
-            this.id = id;
         }
 
         public override void WypiszInfo()

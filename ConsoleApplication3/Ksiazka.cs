@@ -12,15 +12,18 @@ namespace ConsoleApplication3
 
         public Autor autor;
 
-        public Ksiazka() { }
+        //konstruktor domyślny (warto dodać tworzenie pola autor jako obiektu Autor)
+        public Ksiazka()
+        {
+            autor = new Autor();
+        }
 
-        public Ksiazka(int liczbaStron, string tytul, string wydawnictwo, int rokWydania, int id)
+        //konstruktor parametryczny - warto ustawic tez autora
+        public Ksiazka(string imie, string nazwisko, string tytul, int id, string wydawnictwo, int rokWydania, int liczbaStron)
+            : base(tytul, wydawnictwo, rokWydania,id)
         {
             this.liczbaStron = liczbaStron;
-            this.tytul = tytul;
-            this.wydawnictwo = wydawnictwo;
-            this.rokWydania = rokWydania;
-            this.id = id;
+            autor = new Autor(imie, nazwisko);
         }
 
         public override void WypiszInfo()
@@ -30,6 +33,7 @@ namespace ConsoleApplication3
             Console.WriteLine("Rok wydania: {0}", rokWydania);
             Console.WriteLine("ID: {0}",id);
             Console.WriteLine("Liczba Stron: {0}", liczbaStron);
+            Console.WriteLine("Autor: {0}", autor.PobierzAutora()); //warto wypisac autora
 
         }
 

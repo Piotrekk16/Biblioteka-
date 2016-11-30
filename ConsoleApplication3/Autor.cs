@@ -20,5 +20,17 @@ namespace ConsoleApplication3
             this.nazwisko = nazwisko;
             this.narodowosc = narodowosc;
         }
+
+        //konstruktor z 2 parametrami (bez narodowosci) 
+        public Autor(string imie, string nazwisko)
+            : base(imie, nazwisko)
+        {
+            narodowosc = "Polska";
+        }
+
+        public string PobierzAutora()
+        {
+            return imie + " " + nazwisko;
+        }
     }
 }

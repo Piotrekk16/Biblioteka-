@@ -6,29 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication3
 {
-    class IZarzadzanieKatalogiem : Katalog
+    interface IZarzadzanieKatalogiem //tu było zapętlenie, jeśli klasa ma podpięty interfejs, to interfejs nie może podpinać klasy, i słowo kluczoe interface
     {
 
-        public void WyszukajPoTytule()
-        {
-
-        }
-        public void WyszukajPoId()
-        {
-
-        }
-
-        public void WypiszWszystko()
-        {
-
-        }
-
-
-
-
-
-
-
+        //tu dodajemy tylko deklarację (bez nawiasów klamrowych), przy dwóch metoda przydałyby się parametry
+        void WyszukajPoTytule(string tytul);
+        void WyszukajPoId(int id);
+        void WypiszWszystko();
 
     }
 }

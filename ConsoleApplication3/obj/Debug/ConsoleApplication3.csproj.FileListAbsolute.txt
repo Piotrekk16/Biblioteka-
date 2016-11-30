@@ -4,3 +4,9 @@ C:\Users\local\Desktop\ConsoleApplication3\ConsoleApplication3\bin\Debug\Console
 C:\Users\local\Desktop\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
 C:\Users\local\Desktop\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
 C:\Users\local\Desktop\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\Piotrek\Desktop\Cw7\11\Biblioteka--master\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\Piotrek\Desktop\Cw7\11\Biblioteka--master\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\Piotrek\Desktop\Cw7\11\Biblioteka--master\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\Piotrek\Desktop\Cw7\11\Biblioteka--master\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\Piotrek\Desktop\Cw7\11\Biblioteka--master\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+C:\Users\Piotrek\Desktop\Cw7\11\Biblioteka--master\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
